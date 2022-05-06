@@ -4,53 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio de venta de instrumentos musicales nuevos y usados al mejor precio del mercado">
+    <meta name="keywords" content="INSTRUMENTOS, MUSICALES, FENDER, GIBSON, BAJO, GUITARRA, BATERÍA, MUSICA, MUSICOS, CURSOS, BACKLINE, ESTUDIO, GRABACION">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Lion Instrumentos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <title>Lion Instrumentos musicales</title>
 </head>
 <body> 
-   <header>
-    <a href="index.html"><img src="assets/images/logotransparente.png" alt=""></a>     
+  <header>
+    <a href="index.html"><img class="logo" src="assets/images/logotransparente.png" alt="Logo del sitio Lion instrumentos"></a>     
     <nav>
        <ul class="navtexto">
-           <li> <a href="index.html">Inicio</a></li>
-           <li> <a href="assets/pages/productos.html">Productos</a></li>
-           <li> <a href="assets/pages/ofertas.html">Ofertas</a></li>
-           <li> <a href="assets/pages/artistas.html">Artistas</a></li>
-           <li> <a href="assets/pages/contacto.html">Contacto</a></li>
+           <li><a href="index.html">Inicio</a></li>
+           <li><a href="pages/productos.html">Productos</a></li>
+           <li><a href="pages/ofertas.html">Ofertas</a></li>
+           <li><a href="pages/artistas.html">Artistas</a></li>
+           <li><a href="pages/contacto.html">Contacto</a></li>
        </ul>
     </nav> 
-    <!--Navegación usuario log in y carrito sin link-->
+    <!--carrito sin sección-->
 <div class="cajauser">
-<a href="assets/pages/login.html"><img src="assets/images/signin1.png"></a><img src="assets/images/shop1.png">
+<a href="pages/login.html"><img src="assets/images/signin1.png" alt="Icono botón de sign in"></a><img src="assets/images/shop1.png" alt="Icono de carrito"> 
 </div>
-    </header> 
-       <main>
-        <h1>Nuestras marcas</h1>
-        <div class="cajademarcas">  
-        <a href="https://www.gibson.com/en-US/"><img src="assets/images/logosmarcas/gibsonicon1.png"></a>
-        <a href="https://www.fender.com/es/start"><img src="assets/images/logosmarcas/fendericon.png"></a>
-        <a href="https://usa.yamaha.com/products/musical_instruments/drums/index.html"><img src="assets/images/logosmarcas/yamahaicon1.png"></a>
-        <a href="https://www.roland.com/global/"><img src="assets/images/logosmarcas/rolandicon2.png"></a>
-        <a href="https://focusrite.com/es"><img src="assets/images/logosmarcas/focusritelogo2.png"></a>
-        <a href="https://https://www.behringer.com"><img src="assets/images/logosmarcas/behringerlogo2.png"></a>
-        <a href="http://www.rickenbacker.com/"><img class="cajarickenbacker" src="assets/images/logosmarcas/rickenbackerlogo3.png" ></a>
+   </header>
+    <div class="swiffy-slider">
+        <ul class="slider-container">
+            <li><img src="./assets/images/panoramica-studio.png" alt="Imagen panoramica del estudio frontal" style="max-width: 100%;height: auto;"></li>
+            <li><img src="./assets/images/panoramica-studio3.png" alt="Imagen estudio cerrado con piano de cola" style="max-width: 100%;height: auto;"></li>
+            <li><img src="./assets/images/panoramica-studio2.png" alt="Imagen panoramica del estudio con muchas guitarras" style="max-width: 100%; height: auto;"></li>    
+        </ul>    
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>   
+        <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
         </div>
-        <h1> Videotest</h1>
-        <div class="videotest">
+    </div>
+       <main>
+        <div class="swiffy-slider">
+            <ul class="slider-container">
+                <li><div class="marcas">  
+                    <a href="https://www.gibson.com/en-US/"><img src="assets/images/logosmarcas/gibsonicon1.png" alt="Logo de Gibson Instruments"></a>
+                    <a href="https://www.fender.com/es/start"><img src="assets/images/logosmarcas/fendericon.png" alt="Logo de Fender Instruments"></a>
+                    <a href="https://usa.yamaha.com/products/musical_instruments/drums/index.html"><img src="assets/images/logosmarcas/yamahaicon-bw.png" alt="Logo de Yamaha Drums"></a>
+                    <a href="https://www.roland.com/global/"><img src="assets/images/logosmarcas/rolandicon-bw.png" alt="Logo de Roland Instruments"></a>
+                    <a href="https://focusrite.com/es"><img src="assets/images/logosmarcas/focusritelogo2.png" alt="Logo de Focusrite"></a>
+                    <a href="https://https://www.behringer.com"><img src="assets/images/logosmarcas/behringerlogo-bw.png" alt="Logo de Behringer"></a>
+                    <a href="http://www.rickenbacker.com/"><img src="assets/images/logosmarcas/Rickenbacker-BW.png" alt="Logo de Rickenbacker Instruments" ></a>
+                    </div> </li>
+                <li> <div class="marcas">  
+                    <a href="https://www.casioteclados.com/"><img src="assets/images/logosmarcas/casio-bw.png" alt="Logo de Casio Instruments"></a>
+                    <a href="https://www.suhr.com/"><img src="assets/images/logosmarcas/suhr-bw.png" alt="Logo de Suhr Instruments"></a>
+                    <a href="https://mackie.com/"><img src="assets/images/logosmarcas/mackielogo3.png" alt="Logo de Mackie"></a>
+                    <a href="https://www.roland.com/global/"><img src="assets/images/logosmarcas/rolandicon-bw.png" alt="Logo de Roland Instruments"></a>
+                    <a href="https://focusrite.com/es"><img src="assets/images/logosmarcas/focusritelogo2.png" alt="Logo de Focusrite"></a>
+                    <a href="https://https://www.behringer.com"><img src="assets/images/logosmarcas/behringerlogo-bw.png" alt="Logo de Behringer"></a>
+                     </div></li>
+                </ul>
+        
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+        
+            <div class="slider-indicators">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+        
+        <h1> Novedades</h1>
+        <div class="Novedades">
         <iframe class="bordes" width="560" height="315" src="https://www.youtube.com/embed/bAi83kfwXVM" title="YouTube video player" frameborder="150" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe class="bordes" width="560" height="315" src="https://www.youtube.com/embed/47s6NibOEsw" title="YouTube video player" frameborder="150" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <H1>Playlist colaborativa</H1>
-        <iframe class="bordes" style="border: radius 120px" src="https://open.spotify.com/embed/playlist/2nFr4tjqVdSsIrLUkiEqoD?utm_source=generator" width="50%" height="380" frameBorder="150" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        
+        <h1>Playlist colaborativa</h1>
+        <iframe class="bordes" style="border: radius 120px" src="https://open.spotify.com/embed/playlist/2nFr4tjqVdSsIrLUkiEqoD?utm_source=generator" width="94%" height="320" frameBorder="150" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>       
     </main>
-    <footer>
-       <p class="footertexto">Creado por <a href="https://github.com/juanprs86">Juan Ortiz</a></p> 
-    <img src="assets/images/logosredes/facebookcolor.png"> 
-    <img src="assets/images/logosredes/instagramcolor.png">
-    <img src="assets/images/logosredes/twittercolor.png">  
-    </footer>
+    <!--Footer -->
+    <footer class="site-footer">
+      <div class="container1">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h3>Nosotros</h3>
+            <p class="text-justify">En Lion Instrumentos queremos lo mejor para tu proyecto musical. 
+Desde 1996 contamos con servicios para que tu música suene cada vez más fuerte.<br>
+También brindamos soporte de backline para tus shows, y cursos personalizados en el mejor ambiente y con los mejores docentes del pais. ¡Consultanos!
+</p>
+<img src="./assets/images/logotransparente.png" alt="Logo del sitio Lion Instrumentos">
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h3>Categorias</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="./pages/productos.html">Productos</a></li>
+              <li><a href="./pages/ofertas.html">Ofertas</a></li>
+              <li><a href="./pages/artistas.html">Artistas</a></li>
+              <li><a href="./pages/contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h3>Creado por</h3>
+            <ul class="footer-links">
+                <a href="https://github.com/juanprs86">Juan Ortiz</a>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <ul class="social-icons">
+                      <li><a class="facebook" href="#"></a></li>
+                      <li><a class="instagram" href="#"></a></li>
+                      <li><a class="twitter" href="#"></a></li>
+                      <li><a class="linkedin" href="#"></a></li>   
+                 </ul>    
+                </div>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+         <a href="#">Lion Instrumentos</a>.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="youtube" href="#"><i class="fa fa-facebook"></i></a></li>   
+           </ul>    
+          </div>
+        </div>
+      </div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

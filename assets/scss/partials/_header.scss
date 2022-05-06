@@ -1,0 +1,24 @@
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    letter-spacing: .07em;
+      .navtexto{
+        text-align: center;
+        .logo{
+            display: flex;
+            padding: 10px;
+            margin-top: 30%;
+        }
+    }
+    }
+    
+ul{
+    list-style: none;
+        li{
+            display: inline; padding: 22px;
+        }        
+        }

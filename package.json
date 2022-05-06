@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch style.scss -o style.css"
   },
   "repository": {
     "type": "git",
@@ -193,6 +194,7 @@
     "ms": "^2.1.2",
     "nan": "^2.15.0",
     "negotiator": "^0.6.3",
+    "node": "^17.7.2",
     "node-gyp": "^8.4.1",
     "nopt": "^5.0.0",
     "normalize-package-data": "^3.0.3",
@@ -242,6 +244,7 @@
     "rimraf": "^3.0.2",
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
+    "sass": "^1.50.0",
     "sass-graph": "^4.0.0",
     "scss-tokenizer": "^0.3.0",
     "semver": "^7.3.6",
